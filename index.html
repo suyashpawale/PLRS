@@ -67,5 +67,31 @@
     <footer>
       <p>© 2025 LearnSmart | Final Year BE Project</p>
     </footer>
+
+    <!-- Auth Modal -->
+    <div class="auth-modal" id="authModal">
+      <div class="auth-modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <div class="auth-toggle">
+          <button id="loginBtn" class="active">Login</button>
+          <button id="registerBtn">Register</button>
+        </div>
+        <!-- Login Form -->
+        <form id="loginForm" class="form active">
+          <input type="email" id="loginEmail" placeholder="Enter your email" required />
+          <input type="password" id="loginPassword" placeholder="Enter your password" required />
+          <button type="submit">Login</button>
+        </form>
+        <!-- Register Form -->
+        <form id="registerForm" class="form">
+          <input type="email" id="registerEmail" placeholder="Enter your email" required />
+          <input type="password" id="registerPassword" placeholder="Enter your password" required />
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
+
